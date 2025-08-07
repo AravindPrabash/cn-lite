@@ -1,5 +1,5 @@
 {
-  "name": "combine-classnames",
+  "name": "cn-lite",
   "version": "1.0.0",
   "description": "A minimal and dependency-free utility to combine CSS class names.",
   "main": "index.js",
@@ -16,6 +16,9 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AravindPrabash/combine-classnames"
+    "url": "https://github.com/AravindPrabash/cn-lite"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
