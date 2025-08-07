@@ -1,0 +1,21 @@
+{
+  "name": "combine-classnames",
+  "version": "1.0.0",
+  "description": "A minimal and dependency-free utility to combine CSS class names.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "keywords": [
+    "classnames",
+    "css",
+    "combine",
+    "utility",
+    "tailwind",
+    "react"
+  ],
+  "author": "Aravind Prabash",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AravindPrabash/combine-classnames"
+  }
+}
