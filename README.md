@@ -59,7 +59,7 @@ console.log(buttonClass);
 
 ---
 
-## 📚 Example
+## 📚 More Examples
 
 ```ts
 const classes = cn(
@@ -71,6 +71,28 @@ const classes = cn(
 
 console.log(classes);
 // "text-lg hover:underline bg-blue-500 font-bold"
+```
+
+---
+
+```ts
+import cn from "cn-lite";
+
+const isActive = true;
+const isDisabled = false;
+
+const className = cn(
+  "btn", // string
+  isActive && "btn-active", // conditional string
+  ["rounded", "text-white"], // array of class names
+  {
+    "btn-disabled": isDisabled, // object with condition
+    "btn-primary": true, // always included from object
+  }
+);
+
+console.log(className);
+// Output: "btn btn-active rounded text-white btn-primary"
 ```
 
 ---
