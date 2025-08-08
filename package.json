@@ -1,6 +1,6 @@
 {
   "name": "cn-lite",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A minimal and dependency-free utility to combine CSS class names.",
   "main": "index.js",
   "types": "index.d.ts",
